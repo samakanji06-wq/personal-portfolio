@@ -1,0 +1,115 @@
+.btn {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 20px;
+    margin-left: 40px;
+    border-radius: 15px;
+
+}
+
+
+#hello {
+    padding: 50px;
+    font-size: 30px;
+    background-color: rgb(159, 136, 159);
+
+}
+
+a {
+    text-decoration: none;
+    padding-right: 25px;
+    color: white;
+}
+
+.btnn {
+    background-color: purple;
+    color: white;
+    border: none;
+    margin-right: 10px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    gap: 50px;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    height: 500px;
+}
+
+#me {
+    text-align: center;
+    font-style: inherit;
+    margin-bottom: 40px;
+}
+
+#pic {
+    display: flex;
+    gap: 120px;
+
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    margin: 30px;
+}
+
+.form {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: 15px;
+    border-radius: 13px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.form button {
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+.contact-info a {
+    color: purple;
+    text-decoration: none;
+}
+
+.contact-info i {
+    color: purple;
+}
+
+#con {
+    font-size: 25px;
+    margin-left: 20px;
+}
