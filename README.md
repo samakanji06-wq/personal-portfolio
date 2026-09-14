@@ -36,4 +36,4 @@ Author
 Samuel Akanji full-stack focused developer based in Ibadan.
 
 Email: samakanji06@gmail.com
-TikTok: @sammy_694
+TikTok: @sam_my694
