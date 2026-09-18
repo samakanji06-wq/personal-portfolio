@@ -3,17 +3,21 @@
     color: white;
     border: none;
     padding: 20px;
-    margin-left: 40px;
     border-radius: 15px;
 
 }
 
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+}
+
 
 #hello {
-    padding: 50px;
-    font-size: 30px;
-    background-color: rgb(159, 136, 159);
-
+    padding: 25px;
+    font-size: 22px;
 }
 
 a {
@@ -26,21 +30,26 @@ a {
     background-color: purple;
     color: white;
     border: none;
-    margin-right: 10px;
+    margin: 0;
     border-radius: 15px;
     text-align: center;
     padding: 20px;
     cursor: pointer;
     gap: 50px;
     justify-content: space-between;
-    margin-left: 30px;
 }
+
 
 #home {
     display: flex;
     align-items: center;
     margin-top: 30px;
     height: 500px;
+}
+
+#img {
+    object-fit: cover;
+    display: block;
 }
 
 #me {
@@ -81,6 +90,20 @@ p {
     font-weight: bold;
 }
 
+.wrapper {
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+}
+
 .form-group input,
 .form-group textarea {
     padding: 12px;
@@ -112,4 +135,66 @@ p {
 #con {
     font-size: 25px;
     margin-left: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font: 2.5vw;
+    font-family: "Lucida Sans", sans-serif;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    #home {
+        flex-direction: column;
+        align-items: stretch;
+        height: auto;
+        text-align: center;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    #hello {
+        padding: 25px;
+        font-size: 22px;
+    }
+
+    #hello .btnn {
+        display: inline-block;
+        margin: 15px auto 0;
+    }
+
+    #pic {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    .form button {
+        align-self: center;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    #con {
+        font-size: 20px;
+    }
 }
